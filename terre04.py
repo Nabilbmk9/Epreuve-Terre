@@ -1,4 +1,6 @@
-chiffre = input("choisissez un chiffre : ")
+import sys
+
+chiffre = sys.argv[1]
 
 if chiffre.isnumeric():
     if int(chiffre)%2 == 0 : 
