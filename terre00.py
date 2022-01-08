@@ -1,8 +1,6 @@
-while True:
+alphabet = ["a","b","c","d","e","f","g","h",
+"i","j","k","l","m","n","o","p","q","r","s",
+"t","u","v","w","x","y","z", "\n"]
 
-    choice = input("Voulez vous afficher l'alphabet? y/n")
-    if choice == "y" : 
-        print("abcdefghijklmnopqrstuvwxyz\n")
-
-    else:
-        break
+for i in alphabet:
+    print(i, end="")
