@@ -13,6 +13,6 @@ if int(arg2) > int(arg1) :
 
 else : 
     resultat = int(arg1) // int(arg2)
-    reste = resultat%2
+    reste = int(arg1)%int(arg2)
     print(f"Résultat : {int(resultat)}")
     print(f"Reste : {int(reste)}")
