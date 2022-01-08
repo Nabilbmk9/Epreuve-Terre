@@ -1,3 +1,4 @@
-import os
+from pathlib import Path
 
-print(os.path.basename(__file__))
+current_dir = Path(__file__)
+print(current_dir.name)
