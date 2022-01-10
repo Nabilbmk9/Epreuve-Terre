@@ -32,7 +32,6 @@ while permutation:
     permutation = False
     j += 1
     for i in range(0, len(argument)-j):
-        print(i)
         if argument[i] > argument[i+1]:
             argument[i], argument[i+1] = argument[i+1], argument[i]
             permutation = True
