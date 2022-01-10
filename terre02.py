@@ -1,3 +1,5 @@
+#Afficheur d’arguments
+
 argument = input("Entre une phrase : ")
 argument_to_list = argument.split()
 

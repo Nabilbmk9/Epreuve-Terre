@@ -1,3 +1,5 @@
+#Inverser une chaîne
+
 import sys
 
 phrase = list(sys.argv[1])

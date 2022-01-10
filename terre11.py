@@ -52,9 +52,3 @@ elif len(argument_to_list) == 4 :
 
 else : 
     print("erreur.")
-    
-        
-
-        
-
-

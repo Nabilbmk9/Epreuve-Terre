@@ -1,3 +1,5 @@
+#Pair ou impair
+
 import sys
 
 chiffre = sys.argv[1]

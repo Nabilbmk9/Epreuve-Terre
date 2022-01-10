@@ -1,3 +1,5 @@
+# Taille d’une chaîne
+
 import sys
 
 argument = [sys.argv]
